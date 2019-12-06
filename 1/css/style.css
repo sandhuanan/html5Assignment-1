@@ -1,0 +1,120 @@
+/* Adding fonts from google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Aclonica|Aladin|Alata|Alike+Angular|Armata|Audiowide|Barrio|Baumans|Be+Vietnam|Chewy|Dr+Sugiyama|Indie+Flower|Kaushan+Script&display=swap');
+
+/* styling the the navigation */
+
+#nav{
+    background: #fff;
+    position: fixed;
+    z-index: 1111;
+    width: 100%;
+}
+
+nav p{
+    color: #FC2B1D;
+    font-size: 38px;
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+#navbarSupportedContent a{
+    color: green;
+    font-size: 18px;
+    font-family: 'Audiowide', cursive; 
+}
+
+.carousel-inner{
+    padding-top: 6%;
+}
+
+/* styling the about section */
+
+#about{
+    width: 100%;
+    background-color: white;
+}
+
+#about h1{
+    font-size: 35px;
+    font-family: 'Baumans', cursive;
+    padding-top: 4%;
+    margin-bottom: 1%;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+#about p{
+    line-height: 2rem;
+    text-align: justify;
+    padding: 2% 5% 2% 5%;
+    font-family: 'Indie Flower', cursive;
+    align-content: center;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    background-color: #5ABD0B;
+    text-transform: capitalize;
+    color: white;
+}
+
+/* styling the menu */
+
+#menu{
+    width: 100%;
+}
+
+#menu h1{
+    font-size: 35px;
+    font-family: 'Baumans', cursive;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+#menu>div{
+    background-color: #51AE08;
+    color: white;
+    border-color: #FC2B1D;
+    border-width: 5px;
+}
+
+/* styling the cards */
+
+.card{
+    align-content: center;
+    padding: 1%;
+    float: left;
+    text-align: justify;
+    margin: 2% 2.5% 2% 2.5%;
+    background-color: #5ABD0B; 
+}
+
+.card a{
+    color: White;
+    margin-right: 10%;
+    font-family: 'Aladin', cursive;
+    font-size: 20px;
+}
+.card li{
+    color: #FC2B1D;
+}
+
+.clear{
+    clear: both;
+}
+/* styling the footer */
+footer{
+    background-color: #640027;
+    height: auto;
+    text-align: center;
+    padding: 4%;
+    font-size: 22px;
+    color: white;
+    font-family: 'Alike Angular', serif
+    
+}
